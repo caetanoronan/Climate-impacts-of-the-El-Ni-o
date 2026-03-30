@@ -7,7 +7,6 @@
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #eceff1; color: #333; }
     
-    /* Fixa a barra no topo e garante que fique sobre as imagens */
     .tabs { 
       display: flex; 
       background: #263238; 
@@ -46,7 +45,6 @@
     .highlight-box { background: #e0f2f1; border-left: 5px solid #00897b; padding: 15px; margin: 20px 0; font-size: 0.95em; }
     .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
     
-    /* Estilos do Glossário */
     .glossario-item { margin-bottom: 20px; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; }
     .glossario-term { font-weight: bold; color: #00695c; font-size: 1.1em; display: block; }
     .glossario-def { color: #555; display: block; margin-top: 5px; text-align: justify; }
@@ -69,76 +67,70 @@
   <div class="container">
     <div class="tab-content active">
       <h2>Título, Hipótese e Objetivos</h2>
-      <p style="font-style: italic; color: #555;">Revisão: Nature Reviews Earth & Environment (2020) [cite: 25, 26]</p>
+      <p style="font-style: italic; color: #555;">Revisão: Nature Reviews Earth & Environment (2020)</p>
       <h3>Título:</h3>
-      <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong> [cite: 4]</p>
+      <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong></p>
       <h3>Hipótese:</h3>
       <ul>
-        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO (eventos EP vs. CP) e pela interação com outros modos de variabilidade climática[cite: 11, 31].</li>
+        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO e pela interação com outros modos de variabilidade climática.</li>
       </ul>
       <h3>Objetivos:</h3>
       <ul>
-        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul[cite: 9].</li>
-        <li>Analisar processos oceano-atmosfera e as respostas ao aquecimento antropogênico[cite: 10].</li>
+        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul.</li>
+        <li>Analisar processos oceano-atmosfera e as respostas ao aquecimento antropogênico.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Justificativa da Importância</h2>
       <ul>
-        <li><strong>Socioeconomia:</strong> O ENSO afeta a produção agrícola, pesca, saúde pública (malária) e frequência de incêndios[cite: 21, 85].</li>
-        <li><strong>Impactos em Santa Catarina:</strong> No El Niño de 1982-83, inundações afetaram 186 municípios, deixando 220 mil desabrigados[cite: 82].</li>
-        <li><strong>Diferentes Regiões:</strong> Causa secas na Amazônia/Nordeste e inundações no Sudeste da América do Sul (SESA) e costa oeste tropical[cite: 8, 30].</li>
-        <li><strong>Magnitude Econômica:</strong> O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro[cite: 79, 80].</li>
+        <li><strong>Socioeconomia:</strong> O ENSO modula a produção agrícola, pesca, saúde pública e incidência de incêndios.</li>
+        <li><strong>Impactos em Santa Catarina:</strong> O El Niño de 1982-83 afetou 186 municípios, deixando 220 mil desabrigados.</li>
+        <li><strong>Diferentes Regiões:</strong> Causa secas na Amazônia e Nordeste, mas inundações no Sudeste da América do Sul (SESA).</li>
+        <li><strong>Magnitude Econômica:</strong> O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Metodologia do Trabalho</h2>
       <ul>
-        <li><strong>Índices E e C:</strong> Uso de combinações lineares de EOFs para distinguir El Niños do Pacífico Leste (EP) e Pacífico Central (CP)[cite: 220, 221, 522].</li>
-        <li><strong>Mecanismos:</strong> Análise da Circulação de Walker (tropical) e trens de onda de Rossby (extratropical - PSA)[cite: 29, 183, 190].</li>
-        <li><strong>Modelagem (CMIP5):</strong> Comparação entre "modelos realistas" e "não realistas" baseada na capacidade de simular a não-linearidade do ENSO[cite: 637, 685].</li>
+        <li><strong>Classificação:</strong> Uso de EOFs para criar os Índices E e C, distinguindo El Niños do Pacífico Leste (EP) e Central (CP).</li>
+        <li><strong>Mecanismos:</strong> Estudo da Circulação de Walker e trens de onda de Rossby (padrão PSA).</li>
+        <li><strong>Modelagem:</strong> Comparação entre modelos realistas e não realistas para projeções sob o cenário RCP8.5.</li>
       </ul>
       <div class="highlight-box">
-        <strong>Base de Dados:</strong> Climatologias calculadas para o período de 1948–2016[cite: 367].
+        <strong>Base de Dados:</strong> Climatologias e regressões baseadas no período de 1948–2016.
       </div>
     </div>
 
     <div class="tab-content">
-      <h2>Resultados: Mecanismos e Teleconexões</h2>
+      <h2>Resultados: O Dipolo de Chuva</h2>
       <div class="figura">
         <img src="Fig 2 Evolution of a typical El Niño event and its impact on the South American climate.png" alt="Mecanismos ENSO">
-        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva[cite: 364].</small>
-        <details>
-          <summary>Ver explicação detalhada (tradução)</summary>
-          <div>
-            Evolução de um evento típico de El Niño e seu impacto no clima da América do Sul. Em SON (setembro-novembro), emerge a teleconexão Pacífico–Sul-Americana (PSA)[cite: 191, 370]. O impacto gira em torno do aumento da precipitação na costa oeste, seca no nordeste e umidade no sudeste[cite: 372].
-          </div>
-        </details>
+        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva.</small>
       </div>
       <ul>
-        <li><strong>Dipolo de Precipitação:</strong> Anomalias negativas no Nordeste/Amazônia e positivas no Sudeste (SESA)[cite: 200, 202].</li>
-        <li><strong>Padrão PSA:</strong> Teleconexão extratropical que favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ)[cite: 190, 192].</li>
-        <li><strong>EP vs. CP:</strong> Eventos EP produzem anomalias de chuva três vezes maiores no SESA que eventos CP[cite: 229].</li>
+        <li><strong>Dipolo de Precipitação:</strong> Anomalias negativas no Nordeste e positivas no Sudeste (SESA).</li>
+        <li><strong>Padrão PSA:</strong> Favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ).</li>
+        <li><strong>Asimetria:</strong> Eventos EP produzem anomalias de chuva muito mais intensas que eventos CP.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Conclusões e Futuro</h2>
       <ul>
-        <li><strong>Mudanças Climáticas:</strong> Projeta-se aumento na frequência de eventos extremos de ENSO (El Niño e La Niña fortes)[cite: 704].</li>
-        <li><strong>Interação SAM:</strong> O Modo Anular Sul pode anular os efeitos do El Niño, como visto na megasseca do Chile[cite: 541, 542].</li>
-        <li><strong>Incertezas:</strong> Erros sistemáticos como o "viés da língua fria" no Pacífico equatorial limitam as projeções precisas[cite: 801, 806].</li>
+        <li><strong>Mudanças Climáticas:</strong> Projeta-se aumento na frequência de eventos extremos de ENSO.</li>
+        <li><strong>Interação SAM:</strong> O Modo Anular Sul pode mitigar ou anular os efeitos de chuva do El Niño no Chile.</li>
+        <li><strong>Desafios:</strong> É necessário reduzir erros sistemáticos nos modelos para projeções regionais mais precisas.</li>
       </ul>
       
       <div class="highlight-box" style="background: #fff3e0; border-left-color: #ff9800;">
-        <strong>Conexão Local (Florianópolis):</strong> Mudanças no dipolo de chuva afetam a salinidade e nutrientes, impactando as macrófitas em Arvoredo, Xavier e Campeche.
+        <strong>Conexão Local (Florianópolis):</strong> Mudanças no regime de chuvas impactam a salinidade costeira, fator crítico para as macrófitas em Arvoredo e Xavier.
       </div>
 
       <div class="figura">
         <img src="Fig 3 EP and CP ENSO regimes and their different impacts on the South American climate.png" alt="Diversidade ENSO">
-        <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO[cite: 520].</small>
+        <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO.</small>
       </div>
     </div>
 
@@ -146,27 +138,19 @@
       <h2>Glossário Técnico</h2>
       <div class="glossario-item">
         <span class="glossario-term">ENSO (El Niño-Oscilação Sul)</span>
-        <span class="glossario-def">Fenômeno de interação oceano-atmosfera no Pacífico tropical que alterna entre fases quentes (El Niño) e frias (La Niña)[cite: 14, 15].</span>
+        <span class="glossario-def">Interação oceano-atmosfera que altera temperaturas no Pacífico e o clima global.</span>
       </div>
       <div class="glossario-item">
         <span class="glossario-term">Teleconexões</span>
-        <span class="glossario-def">Processos atmosféricos que ligam anomalias climáticas em regiões distantes (ex: Pacífico e América do Sul)[cite: 9, 20].</span>
+        <span class="glossario-def">Ligações climáticas entre regiões distantes mediadas pela atmosfera.</span>
       </div>
       <div class="glossario-item">
-        <span class="glossario-term">Circulação de Walker</span>
-        <span class="glossario-def">Sistema de circulação zonal de ar sobre o Pacífico tropical; seu deslocamento altera padrões de chuva e seca no continente[cite: 29, 183, 184].</span>
+        <span class="glossario-term">SALLJ</span>
+        <span class="glossario-def">Jato de Baixos Níveis; transporta umidade da Amazônia para o Sul do Brasil.</span>
       </div>
       <div class="glossario-item">
-        <span class="glossario-term">Ondas de Rossby / Padrão PSA</span>
-        <span class="glossario-def">Ondas atmosféricas planetárias (Pacífico-Sul-Americana) que transportam energia dos trópicos para as latitudes médias[cite: 188, 190].</span>
-      </div>
-      <div class="glossario-item">
-        <span class="glossario-term">SALLJ (South American Low-Level Jet)</span>
-        <span class="glossario-def">Corrente de vento em baixos níveis que transporta umidade da Amazônia para o sudeste da América do Sul[cite: 92, 93, 177].</span>
-      </div>
-      <div class="glossario-item">
-        <span class="glossario-term">SAM (Southern Annular Mode)</span>
-        <span class="glossario-def">Principal modo de variabilidade extratropical no Hemisfério Sul, caracterizado por anomalias de pressão entre latitudes médias e altas[cite: 60, 537].</span>
+        <span class="glossario-term">Padrão PSA</span>
+        <span class="glossario-def">Ondas de pressão que conectam o Pacífico Sul à América do Sul.</span>
       </div>
     </div>
 
