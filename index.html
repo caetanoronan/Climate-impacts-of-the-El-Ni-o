@@ -6,51 +6,21 @@
   <title>Seminário ENSO - Ronan Caetano</title>
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #eceff1; color: #333; }
-    
-    .tabs { 
-      display: flex; 
-      background: #263238; 
-      position: sticky; 
-      top: 0; 
-      z-index: 1000; 
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    
-    .tab {
-      flex: 1; padding: 18px; color: #b0bec5; text-align: center;
-      cursor: pointer; background: #263238; border: none; outline: none;
-      transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em;
-    }
+    .tabs { display: flex; background: #263238; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .tab { flex: 1; padding: 18px; color: #b0bec5; text-align: center; cursor: pointer; background: #263238; border: none; outline: none; transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em; }
     .tab.active { background: #00897b; color: #fff; border-bottom: 4px solid #80cbc4; }
     .tab:hover:not(.active) { background: #37474f; color: #fff; }
-    
     .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
-    .tab-content {
-      display: none; padding: 40px; background: #fff; min-height: 450px;
-      border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    }
+    .tab-content { display: none; padding: 40px; background: #fff; min-height: 450px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
     .tab-content.active { display: block; animation: fadeIn 0.5s; }
-    
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    
     h2 { color: #00695c; border-bottom: 2px solid #e0f2f1; padding-bottom: 10px; margin-top: 0; }
     h3 { color: #00897b; margin-top: 25px; }
-    ul { line-height: 1.6; }
-    li { margin-bottom: 12px; }
-    
     .figura { margin: 30px 0; text-align: center; background: #f9f9f9; padding: 20px; border-radius: 8px; }
     .figura img { max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #ddd; }
-    .figura small { display: block; color: #666; margin-top: 10px; font-style: italic; }
-    
     .highlight-box { background: #e0f2f1; border-left: 5px solid #00897b; padding: 15px; margin: 20px 0; font-size: 0.95em; }
-    .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
-    
     .glossario-item { margin-bottom: 20px; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; }
-    .glossario-term { font-weight: bold; color: #00695c; font-size: 1.1em; display: block; }
-    .glossario-def { color: #555; display: block; margin-top: 5px; text-align: justify; }
-
-    details div { text-align: left; font-size: 0.97em; color: #444; background: #f5f5f5; border-radius: 6px; padding: 14px; margin-top: 10px; line-height: 1.4; }
-    summary { font-size: 1em; color: #00897b; cursor: pointer; font-weight: bold; margin-top: 18px; }
+    .glossario-term { font-weight: bold; color: #00695c; display: block; }
   </style>
 </head>
 <body>
@@ -65,96 +35,21 @@
   </div>
 
   <div class="container">
-    <div class="tab-content active">
-      <h2>Título, Hipótese e Objetivos</h2>
-      <p style="font-style: italic; color: #555;">Revisão: Nature Reviews Earth & Environment (2020)</p>
-      <h3>Título:</h3>
-      <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong></p>
-      <h3>Hipótese:</h3>
-      <ul>
-        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO e pela interação com outros modos de variabilidade climática.</li>
-      </ul>
-      <h3>Objetivos:</h3>
-      <ul>
-        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul.</li>
-        <li>Analisar processos oceano-atmosfera e as respostas ao aquecimento antropogênico.</li>
-      </ul>
-    </div>
-
-    <div class="tab-content">
-      <h2>Justificativa da Importância</h2>
-      <ul>
-        <li><strong>Socioeconomia:</strong> O ENSO modula a produção agrícola, pesca, saúde pública e incidência de incêndios.</li>
-        <li><strong>Impactos em Santa Catarina:</strong> O El Niño de 1982-83 afetou 186 municípios, deixando 220 mil desabrigados.</li>
-        <li><strong>Diferentes Regiões:</strong> Causa secas na Amazônia e Nordeste, mas inundações no Sudeste da América do Sul (SESA).</li>
-        <li><strong>Magnitude Econômica:</strong> O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro.</li>
-      </ul>
-    </div>
-
-    <div class="tab-content">
-      <h2>Metodologia do Trabalho</h2>
-      <ul>
-        <li><strong>Classificação:</strong> Uso de EOFs para criar os Índices E e C, distinguindo El Niños do Pacífico Leste (EP) e Central (CP).</li>
-        <li><strong>Mecanismos:</strong> Estudo da Circulação de Walker e trens de onda de Rossby (padrão PSA).</li>
-        <li><strong>Modelagem:</strong> Comparação entre modelos realistas e não realistas para projeções sob o cenário RCP8.5.</li>
-      </ul>
-      <div class="highlight-box">
-        <strong>Base de Dados:</strong> Climatologias e regressões baseadas no período de 1948–2016.
-      </div>
-    </div>
-
-    <div class="tab-content">
-      <h2>Resultados: O Dipolo de Chuva</h2>
-      <div class="figura">
-        <img src="Fig 2 Evolution of a typical El Niño event and its impact on the South American climate.png" alt="Mecanismos ENSO">
-        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva.</small>
-      </div>
-      <ul>
-        <li><strong>Dipolo de Precipitação:</strong> Anomalias negativas no Nordeste e positivas no Sudeste (SESA).</li>
-        <li><strong>Padrão PSA:</strong> Favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ).</li>
-        <li><strong>Asimetria:</strong> Eventos EP produzem anomalias de chuva muito mais intensas que eventos CP.</li>
-      </ul>
-    </div>
-
-    <div class="tab-content">
-      <h2>Conclusões e Futuro</h2>
-      <ul>
-        <li><strong>Mudanças Climáticas:</strong> Projeta-se aumento na frequência de eventos extremos de ENSO.</li>
-        <li><strong>Interação SAM:</strong> O Modo Anular Sul pode mitigar ou anular os efeitos de chuva do El Niño no Chile.</li>
-        <li><strong>Desafios:</strong> É necessário reduzir erros sistemáticos nos modelos para projeções regionais mais precisas.</li>
-      </ul>
-      
-      <div class="highlight-box" style="background: #fff3e0; border-left-color: #ff9800;">
-        <strong>Conexão Local (Florianópolis):</strong> Mudanças no regime de chuvas impactam a salinidade costeira, fator crítico para as macrófitas em Arvoredo e Xavier.
-      </div>
-
-      <div class="figura">
-        <img src="Fig 3 EP and CP ENSO regimes and their different impacts on the South American climate.png" alt="Diversidade ENSO">
-        <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO.</small>
-      </div>
-    </div>
-
     <div class="tab-content">
       <h2>Glossário Técnico</h2>
       <div class="glossario-item">
         <span class="glossario-term">ENSO (El Niño-Oscilação Sul)</span>
-        <span class="glossario-def">Interação oceano-atmosfera que altera temperaturas no Pacífico e o clima global.</span>
-      </div>
-      <div class="glossario-item">
-        <span class="glossario-term">Teleconexões</span>
-        <span class="glossario-def">Ligações climáticas entre regiões distantes mediadas pela atmosfera.</span>
+        <span>Interação oceano-atmosfera no Pacífico tropical que alterna entre fases quentes (El Niño) e frias (La Niña)[cite: 14, 15].</span>
       </div>
       <div class="glossario-item">
         <span class="glossario-term">SALLJ</span>
-        <span class="glossario-def">Jato de Baixos Níveis; transporta umidade da Amazônia para o Sul do Brasil.</span>
+        <span>Jato de Baixos Níveis da América do Sul; transporta umidade da Amazônia para o sudeste do continente[cite: 92, 93].</span>
       </div>
       <div class="glossario-item">
         <span class="glossario-term">Padrão PSA</span>
-        <span class="glossario-def">Ondas de pressão que conectam o Pacífico Sul à América do Sul.</span>
+        <span>Teleconexão Pacífico–Sul-Americana; sequência de anomalias de pressão que ligam o Pacífico ao Atlântico Sul[cite: 190, 192].</span>
       </div>
     </div>
-
-    <p class="footer-nav">Use as setas ← e → do teclado para navegar</p>
   </div>
 
   <script>
@@ -170,6 +65,7 @@
 
     document.addEventListener('keydown', (e) => {
       let current = Array.from(document.querySelectorAll('.tab')).findIndex(t => t.classList.contains('active'));
+      // Ajustado para 6 abas (0 a 5)
       if (e.key === "ArrowRight" && current < 5) showTab(current + 1);
       if (e.key === "ArrowLeft" && current > 0) showTab(current - 1);
     });
