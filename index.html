@@ -6,47 +6,25 @@
   <title>Seminário ENSO - Ronan Caetano</title>
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #eceff1; color: #333; }
-    
-    .tabs { 
-      display: flex; 
-      background: #263238; 
-      position: sticky; 
-      top: 0; 
-      z-index: 1000; 
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    
-    .tab {
-      flex: 1; padding: 18px; color: #b0bec5; text-align: center;
-      cursor: pointer; background: #263238; border: none; outline: none;
-      transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em;
-    }
+    .tabs { display: flex; background: #263238; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .tab { flex: 1; padding: 18px; color: #b0bec5; text-align: center; cursor: pointer; background: #263238; border: none; outline: none; transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em; }
     .tab.active { background: #00897b; color: #fff; border-bottom: 4px solid #80cbc4; }
     .tab:hover:not(.active) { background: #37474f; color: #fff; }
-    
     .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
-    .tab-content {
-      display: none; padding: 40px; background: #fff; min-height: 450px;
-      border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    }
+    .tab-content { display: none; padding: 40px; background: #fff; min-height: 450px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
     .tab-content.active { display: block; animation: fadeIn 0.5s; }
-    
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    
     h2 { color: #00695c; border-bottom: 2px solid #e0f2f1; padding-bottom: 10px; margin-top: 0; }
     h3 { color: #00897b; margin-top: 25px; }
     ul { line-height: 1.6; }
     li { margin-bottom: 12px; }
-    
     .figura { margin: 30px 0; text-align: center; background: #f9f9f9; padding: 20px; border-radius: 8px; }
     .figura img { max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #ddd; }
     .figura small { display: block; color: #666; margin-top: 10px; font-style: italic; }
-    
     .highlight-box { background: #e0f2f1; border-left: 5px solid #00897b; padding: 15px; margin: 20px 0; font-size: 0.95em; }
-    .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
-    
-    details div { text-align: left; font-size: 0.97em; color: #444; background: #f5f5f5; border-radius: 6px; padding: 14px; margin-top: 10px; line-height: 1.4; }
+    details div { text-align: left; font-size: 0.97em; color: #444; background: #f5f5f5; border-radius: 6px; padding: 14px; margin-top: 10px; line-height: 1.5; }
     summary { font-size: 1em; color: #00897b; cursor: pointer; font-weight: bold; margin-top: 18px; }
+    .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
   </style>
 </head>
 <body>
@@ -67,34 +45,34 @@
       <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong></p>
       <h3>Hipótese:</h3>
       <ul>
-        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO (eventos EP vs. CP) e pela interação com outros modos de variabilidade climática[cite: 7, 11].</li>
+        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO (eventos EP vs. CP) e pela interação com outros modos de variabilidade climática.</li>
       </ul>
       <h3>Objetivos:</h3>
       <ul>
-        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul[cite: 9].</li>
-        <li>Analisar processos oceano-atmosfera e respostas ao aquecimento antropogênico[cite: 10].</li>
+        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul.</li>
+        <li>Analisar processos oceano-atmosfera e respostas ao aquecimento antropogênico.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Justificativa da Importância</h2>
       <ul>
-        <li><strong>Socioeconomia:</strong> O ENSO afeta a produção agrícola, pesca, saúde pública e incidência de incêndios[cite: 21, 75, 76].</li>
-        <li><strong>Impactos em Santa Catarina:</strong> O El Niño de 1982-83 afetou 186 municípios catarinenses, deixando 220 mil desabrigados[cite: 82].</li>
-        <li><strong>Diferentes Regiões:</strong> Causa secas na Amazônia/Nordeste e inundações no Sudeste da América do Sul (SESA)[cite: 8, 30].</li>
-        <li><strong>Magnitude Econômica:</strong> O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro[cite: 79, 80].</li>
+        <li><strong>Socioeconomia:</strong> O ENSO afeta a produção agrícola, pesca, saúde pública e incidência de incêndios.</li>
+        <li><strong>Impactos em Santa Catarina:</strong> O El Niño de 1982-83 afetou 186 municípios catarinenses, deixando 220 mil desabrigados.</li>
+        <li><strong>Diferentes Regiões:</strong> Causa secas na Amazônia/Nordeste e inundações no Sudeste da América do Sul (SESA).</li>
+        <li><strong>Magnitude Econômica:</strong> O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Metodologia do Trabalho</h2>
       <ul>
-        <li><strong>Índices E e C:</strong> Uso de combinações lineares de EOFs para distinguir El Niños do Pacífico Leste (EP) e Pacífico Central (CP)[cite: 220, 221, 522].</li>
-        <li><strong>Mecanismos:</strong> Análise da Circulação de Walker (tropical) e trens de onda de Rossby (extratropical - PSA)[cite: 183, 190].</li>
-        <li><strong>Modelagem:</strong> Comparação entre "modelos realistas" e "não realistas" (CMIP5) quanto à capacidade de simular a não-linearidade do ENSO[cite: 685].</li>
+        <li><strong>Índices E e C:</strong> Uso de EOFs para distinguir El Niños do Pacífico Leste (EP) e Pacífico Central (CP).</li>
+        <li><strong>Mecanismos:</strong> Análise da Circulação de Walker (tropical) e trens de onda de Rossby (extratropical - PSA).</li>
+        <li><strong>Modelagem:</strong> Comparação entre "modelos realistas" e "não realistas" quanto à capacidade de simular a não-linearidade do ENSO.</li>
       </ul>
       <div class="highlight-box">
-        <strong>Base de Dados:</strong> Climatologias de 1948-2016 e projeções sob o cenário de aquecimento RCP8.5[cite: 367, 686].
+        <strong>Base de Dados:</strong> Climatologias de 1948-2016 e projeções sob o cenário de aquecimento RCP8.5.
       </div>
     </div>
 
@@ -102,42 +80,35 @@
       <h2>Resultados: Mecanismos e Teleconexões</h2>
       <div class="figura">
         <img src="Fig 2 Evolution of a typical El Niño event and its impact on the South American climate.png" alt="Mecanismos ENSO">
-        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva[cite: 364].</small>
+        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva.</small>
         <details style="margin-top:18px;">
-          <summary>Ver descrição detalhada (Tradução)</summary>
+          <summary>Ver explicação detalhada (tradução completa)</summary>
           <div>
-            <strong>Descrição Técnica:</strong> Evolução de um evento típico de El Niño. Temperatura da superfície do mar, precipitação e temperatura do ar na superfície — climatologias (1948–2016) e anomalias para as diferentes estações (JJA, SON, DJF, MAM)[cite: 365, 367]. Em SON, emerge a teleconexão Pacífico–Sul-Americana (PSA), representada por sistemas de alta (H) e baixa (L) pressão do Pacífico equatorial ao Atlântico Sul[cite: 370]. O impacto inclui aumento da precipitação na costa oeste e um padrão dipolar: seco no nordeste e úmido no sudeste[cite: 372].
+            <strong>Descrição detalhada:</strong> Evolução de um evento típico de El Niño. Temperatura da superfície do mar, precipitação e temperatura do ar na superfície — climatologias e anomalias para as diferentes estações (JJA, SON, DJF, MAM). Em SON, emerge a teleconexão Pacífico–Sul-Americana (PSA), representada por sistemas de alta e baixa pressão do Pacífico equatorial ao Atlântico Sul. O impacto inclui aumento de chuva na costa oeste e um dipolo seco no nordeste e úmido no sudeste.
           </div>
         </details>
       </div>
       <ul>
-        <li><strong>Dipolo de Precipitação:</strong> Anomalias negativas no Norte e positivas no Sudeste (SESA)[cite: 372].</li>
-        <li><strong>Padrão PSA:</strong> Teleconexão que favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ)[cite: 92, 190, 192].</li>
-        <li><strong>EP vs. CP:</strong> Eventos EP produzem anomalias de chuva três vezes maiores no SESA que eventos CP[cite: 229].</li>
+        <li><strong>Dipolo de Precipitação:</strong> Anomalias negativas no Norte e positivas no Sudeste (SESA).</li>
+        <li><strong>Padrão PSA:</strong> Teleconexão que favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ).</li>
+        <li><strong>EP vs. CP:</strong> Eventos EP produzem anomalias de chuva três vezes maiores no SESA que eventos CP.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Conclusões e Futuro</h2>
-      <ul>
-        <li><strong>Mudanças Climáticas:</strong> Projeta-se aumento na frequência de eventos extremos de ENSO[cite: 33, 704].</li>
-        <li><strong>Interação SAM:</strong> O Modo Anular Sul pode anular os efeitos do El Niño (ex: megasseca no Chile)[cite: 542, 712].</li>
-        <li><strong>Incertezas:</strong> Erros sistemáticos como o "viés da língua fria" no Pacífico equatorial limitam as projeções[cite: 801, 806].</li>
-      </ul>
-      
-      <div class="highlight-box" style="background: #fff3e0; border-left-color: #ff9800;">
-        <strong>Conexão Local (Florianópolis):</strong> A intensificação do ENSO altera a temperatura costeira e a salinidade (via pluviosidade), afetando as macrófitas em Arvoredo, Xavier e Campeche.
-      </div>
-
       <div class="figura">
         <img src="Fig 3 EP and CP ENSO regimes and their different impacts on the South American climate.png" alt="Diversidade ENSO">
-        <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO[cite: 520].</small>
+        <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO.</small>
         <details style="margin-top:18px;">
-          <summary>Ver descrição detalhada (Tradução)</summary>
+          <summary>Ver explicação detalhada (tradução completa)</summary>
           <div>
-            <strong>Descrição Técnica:</strong> Regimes EP e CP e seus impactos. A não-linearidade do ENSO (α) é representada pela relação quadrática entre PC1 e PC2 das anomalias de TSM[cite: 521]. El Niños EP ocorrem quando o E-índice > 1 desvio padrão[cite: 523]. El Niños EP geralmente têm impacto mais forte que os CP no sudeste da América do Sul, mas podem apresentar impactos opostos ao longo da costa oeste tropical[cite: 531, 532].
+            <strong>Descrição detalhada:</strong> Regimes EP e CP e seus impactos. A não-linearidade é representada pela relação quadrática das anomalias de temperatura. El Niños EP têm impacto mais forte que os CP no sudeste da América do Sul. Na costa oeste tropical, os impactos podem ser opostos dependendo do regime. La Niñas CP são geralmente mais fortes que as EP, mas o padrão espacial não é um espelho exato dos El Niños correspondentes.
           </div>
         </details>
+      </div>
+      <div class="highlight-box" style="background: #fff3e0; border-left-color: #ff9800;">
+        <strong>Conexão Local (Florianópolis):</strong> Mudanças no regime de chuvas impactam a salinidade e nutrientes, afetando as macrófitas em Arvoredo, Xavier e Campeche.
       </div>
     </div>
 
@@ -154,7 +125,6 @@
       });
       window.scrollTo(0, 0);
     }
-
     document.addEventListener('keydown', (e) => {
       let current = Array.from(document.querySelectorAll('.tab')).findIndex(t => t.classList.contains('active'));
       if (e.key === "ArrowRight" && current < 4) showTab(current + 1);
