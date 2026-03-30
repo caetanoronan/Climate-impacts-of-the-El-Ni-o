@@ -6,47 +6,25 @@
   <title>Seminário ENSO - Ronan Caetano</title>
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #eceff1; color: #333; }
-    
-    .tabs { 
-      display: flex; 
-      background: #263238; 
-      position: sticky; 
-      top: 0; 
-      z-index: 1000; 
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    
-    .tab {
-      flex: 1; padding: 18px; color: #b0bec5; text-align: center;
-      cursor: pointer; background: #263238; border: none; outline: none;
-      transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em;
-    }
+    .tabs { display: flex; background: #263238; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .tab { flex: 1; padding: 18px; color: #b0bec5; text-align: center; cursor: pointer; background: #263238; border: none; outline: none; transition: all 0.3s; font-weight: bold; text-transform: uppercase; font-size: 0.85em; }
     .tab.active { background: #00897b; color: #fff; border-bottom: 4px solid #80cbc4; }
     .tab:hover:not(.active) { background: #37474f; color: #fff; }
-    
     .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
-    .tab-content {
-      display: none; padding: 40px; background: #fff; min-height: 450px;
-      border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    }
+    .tab-content { display: none; padding: 40px; background: #fff; min-height: 450px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
     .tab-content.active { display: block; animation: fadeIn 0.5s; }
-    
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    
     h2 { color: #00695c; border-bottom: 2px solid #e0f2f1; padding-bottom: 10px; margin-top: 0; }
     h3 { color: #00897b; margin-top: 25px; }
     ul { line-height: 1.6; }
     li { margin-bottom: 12px; }
-    
     .figura { margin: 30px 0; text-align: center; background: #f9f9f9; padding: 20px; border-radius: 8px; }
     .figura img { max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #ddd; }
     .figura small { display: block; color: #666; margin-top: 10px; font-style: italic; }
-    
     .highlight-box { background: #e0f2f1; border-left: 5px solid #00897b; padding: 15px; margin: 20px 0; font-size: 0.95em; }
-    .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
-    
-    details div { text-align: left; font-size: 0.97em; color: #444; background: #f5f5f5; border-radius: 6px; padding: 14px; margin-top: 10px; line-height: 1.4; }
+    details div { text-align: left; font-size: 0.97em; color: #444; background: #f5f5f5; border-radius: 6px; padding: 14px; margin-top: 10px; line-height: 1.5; }
     summary { font-size: 1em; color: #00897b; cursor: pointer; font-weight: bold; margin-top: 18px; }
+    .footer-nav { text-align: center; margin-top: 20px; color: #78909c; font-size: 0.8em; }
   </style>
 </head>
 <body>
@@ -62,76 +40,61 @@
   <div class="container">
     <div class="tab-content active">
       <h2>Título, Hipótese e Objetivos</h2>
-      <p style="font-style: italic; color: #555;">Revisão: Nature Reviews Earth & Environment (2020) [cite: 25, 26]</p>
+      <p style="font-style: italic; color: #555;">Revisão: Nature Reviews Earth & Environment (2020)</p>
       <h3>Título:</h3>
-      <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong> [cite: 4]</p>
+      <p><strong>Climate impacts of the El Niño–Southern Oscillation on South America</strong></p>
       <h3>Hipótese:</h3>
       <ul>
-        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO (eventos EP vs. CP) e pela interação com outros modos de variabilidade climática. [cite: 11, 31]</li>
-      </ul>
-      <h3>Objetivos:</h3>
-      <ul>
-        <li>Sintetizar o conhecimento atual sobre as teleconexões do ENSO para a América do Sul. [cite: 9]</li>
-        <li>Analisar processos oceano-atmosfera e respostas ao aquecimento antropogênico. [cite: 10]</li>
+        <li>A resposta climática na América do Sul é modulada pela diversidade do ENSO (eventos EP vs. CP) e pela interação com outros modos de variabilidade.</li>
       </ul>
     </div>
 
     <div class="tab-content">
       <h2>Justificativa da Importância</h2>
       <ul>
-        <li>**Socioeconomia**: O ENSO afeta a produção agrícola, pesca, saúde pública e incidência de incêndios. [cite: 21]</li>
-        <li>**Impactos em Santa Catarina**: O El Niño de 1982-83 afetou 186 municípios catarinenses, deixando 220 mil desabrigados. [cite: 82]</li>
-        <li>**Diferentes Regiões**: Causa secas na Amazônia/Nordeste e inundações no Sudeste da América do Sul (SESA). [cite: 8]</li>
-        <li>**Magnitude Econômica**: O evento de 2015-16 causou perdas estimadas em US$ 26 bilhões no Nordeste brasileiro. [cite: 79, 80]</li>
+        <li><strong>Socioeconomia:</strong> Impactos na agricultura, saúde e economia regional.</li>
+        <li><strong>Impactos em SC:</strong> O El Niño de 1982-83 afetou 186 municípios, com 220 mil desabrigados.</li>
       </ul>
     </div>
 
     <div class="tab-content">
-      <h2>Metodologia do Trabalho</h2>
+      <h2>Metodologia</h2>
       <ul>
-        <li>**Índices E e C**: Uso de combinações lineares de EOFs para distinguir El Niños do Pacífico Leste (EP) e Pacífico Central (CP). [cite: 221, 522]</li>
-        <li>**Mecanismos**: Análise da Circulação de Walker (tropical) e trens de onda de Rossby (extratropical - PSA). [cite: 183, 190]</li>
-        <li>**Modelagem**: Comparação entre "modelos realistas" e "não realistas" (CMIP5) quanto à capacidade de simular a não-linearidade do ENSO. [cite: 685]</li>
+        <li><strong>Índices E e C:</strong> Distinção entre El Niños do Pacífico Leste (EP) e Pacífico Central (CP).</li>
+        <li><strong>Teleconexões:</strong> Análise da Circulação de Walker e trens de onda de Rossby (PSA).</li>
       </ul>
-      <div class="highlight-box">
-        <strong>Base de Dados:</strong> Climatologias de 1948-2016 e projeções sob o cenário de aquecimento RCP8.5. [cite: 367, 686]
-      </div>
     </div>
 
     <div class="tab-content">
-      <h2>Resultados: Mecanismos e Teleconexões</h2>
+      <h2>Resultados: Mecanismos</h2>
       <div class="figura">
         <img src="Fig 2 Evolution of a typical El Niño event and its impact on the South American climate.png" alt="Mecanismos ENSO">
-        <small>Figura 2: Evolução de um El Niño típico e o impacto no dipolo de chuva. [cite: 364]</small>
-        <details style="margin-top:18px;">
-          <summary style="font-size:1em; color:#00897b; cursor:pointer; font-weight:bold;">Ver explicação detalhada (tradução)</summary>
-          <div style="text-align:left; font-size:0.97em; color:#444; background:#f5f5f5; border-radius:6px; padding:14px; margin-top:10px;">
-            Evolução de um evento típico de El Niño e seu impacto no clima da América do Sul. [cite: 364] Mostra o padrão proeminente de aumento de chuva na costa oeste e o dipolo entre o nordeste seco e o sudeste úmido. [cite: 372] Em SON, emerge a teleconexão Pacífico–Sul-Americana (PSA). [cite: 370]
+        <small>Figura 2: Evolução de um El Niño típico.</small>
+        <details>
+          <summary>Ver explicação detalhada (Mecanismos)</summary>
+          <div>
+            Esta figura mostra como a teleconexão Pacífico-Sul-Americana (PSA) emerge em SON (setembro-outubro-novembro). O aquecimento no Pacífico gera um trem de ondas que altera a pressão e transporta umidade via Jato de Baixos Níveis (SALLJ) para o Sul do Brasil, criando o dipolo seco no Norte e úmido no Sul.
           </div>
         </details>
       </div>
-      <ul>
-        <li>**Dipolo de Precipitação**: Anomalias negativas no Norte e positivas no Sudeste (SESA). [cite: 202, 372]</li>
-        <li>**Padrão PSA**: Teleconexão que favorece a advecção de umidade para o Sul via Jato de Baixos Níveis (SALLJ). [cite: 190, 192]</li>
-        <li>**EP vs. CP**: Eventos EP produzem anomalias de chuva três vezes maiores no SESA que eventos CP. [cite: 229]</li>
-      </ul>
     </div>
 
     <div class="tab-content">
-      <h2>Conclusões e Futuro</h2>
-      <ul>
-        <li>**Mudanças Climáticas**: Projeta-se aumento na frequência de eventos extremos de ENSO. [cite: 704]</li>
-        <li>**Interação SAM**: O Modo Anular Sul pode anular os efeitos do El Niño (ex: megasseca no Chile). [cite: 542, 712]</li>
-        <li>**Incertezas**: Erros sistemáticos como o "viés da língua fria" no Pacífico limitam projeções precisas. [cite: 801, 806]</li>
-      </ul>
-      
-      <div class="highlight-box" style="background: #fff3e0; border-left-color: #ff9800;">
-        <strong>Conexão Local (Florianópolis):</strong> Mudanças no regime de chuvas impactam a salinidade e nutrientes, afetando as macrófitas em Arvoredo, Xavier e Campeche.
-      </div>
-
+      <h2>Resultados: Diversidade (EP vs. CP)</h2>
       <div class="figura">
         <img src="Fig 3 EP and CP ENSO regimes and their different impacts on the South American climate.png" alt="Diversidade ENSO">
-          <small>Figura 3: Diferenças de impacto entre regimes EP e CP do ENSO. [cite: 520]</small>
+        <small>Figura 3: Diferenças entre regimes EP e CP.</small>
+        <details>
+          <summary>Ver explicação detalhada (Diferenças EP vs CP)</summary>
+          <div>
+            <strong>El Niño EP (Pacífico Leste):</strong> Gera anomalias de chuva muito mais intensas no Sudeste da América do Sul (SESA). O centro de convecção fica mais a leste, fortalecendo a teleconexão PSA.<br><br>
+            <strong>El Niño CP (Pacífico Central):</strong> Os impactos de chuva são deslocados e geralmente mais fracos. Em alguns casos, o impacto no dipolo de chuva pode ser quase oposto ao do EP em certas latitudes da costa oeste.<br><br>
+            <strong>Impacto em Florianópolis:</strong> Eventos EP extremos aumentam significativamente a descarga de água doce, alterando a salinidade nas ilhas de Arvoredo, Xavier e Campeche, afetando as macrófitas marinhas.
+          </div>
+        </details>
+      </div>
+      <div class="highlight-box">
+        Projeta-se que eventos extremos de El Niño EP se tornem mais frequentes com o aquecimento global.
       </div>
     </div>
 
@@ -148,7 +111,6 @@
       });
       window.scrollTo(0, 0);
     }
-
     document.addEventListener('keydown', (e) => {
       let current = Array.from(document.querySelectorAll('.tab')).findIndex(t => t.classList.contains('active'));
       if (e.key === "ArrowRight" && current < 4) showTab(current + 1);
